@@ -5,7 +5,7 @@ from tensorflow.keras import models
 FRONTAL_FACES = 'haarcascades/haarcascade_frontalface_default.xml'
 
 model = models.load_model("model")
-path = "image/AngryLumine.png"
+path = "image/giroudDiscord.JPG"
 
 def result(img):
     img = cv2.resize(img, (128, 128))
